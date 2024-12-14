@@ -8,6 +8,7 @@ import utk.utkenum
 class UTKMeta(utk.utkyamlbase.UTKYamlBase):
     _guid: str
     _fileFormatVersion: str
+    
     def __init__(self, _path):
         super(UTKMeta, self).__init__(_path)
 

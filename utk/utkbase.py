@@ -4,9 +4,9 @@ import sys
 import utk
 
 class UTKBase:
-    _path = ''
+    _path: str = ''
     _bytes: bytes
-    _text = ''
+    _text: str = ''
 
     __chunk_size = 1024
     __is_binary = False
